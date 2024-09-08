@@ -1,0 +1,25 @@
+.container {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+button {
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+p {
+  margin: 0.5rem 0;
+}

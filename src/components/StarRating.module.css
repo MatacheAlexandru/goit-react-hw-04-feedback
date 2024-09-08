@@ -1,0 +1,43 @@
+.starRatingContainer {
+  display: flex;
+  align-items: center;
+}
+
+.starContainer {
+  display: flex;
+  justify-content: center;
+  margin-right: 0.5rem;
+}
+
+.starWrapper {
+  position: relative;
+  display: inline-block;
+  font-size: 2.5rem;
+  margin-right: 0.5rem;
+}
+
+.starBackground {
+  color: #ddd;
+}
+
+.star {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(251, 157, 0, 1) 19%,
+    rgba(228, 252, 0, 1) 76%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0%;
+}
+
+.percentageLabel {
+  font-size: 1.5rem;
+  color: #333;
+}
